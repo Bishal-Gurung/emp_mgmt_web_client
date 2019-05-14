@@ -1,0 +1,11 @@
+{
+  "name": "emp_mgmt_web_client",
+  "version": "1.0.0",
+  "description": "Employee management system (web client)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bleen",
+  "license": "ISC"
+}
