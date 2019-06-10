@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        
+            <input id="username" type="text"/>
+    </div>
+    <div>
+        
+            <input id="password" type="text"/>
+    </div>
+    	<button id="login" class="login100-form-btn">
+                Login
+            </button>
+            
+            <script>
+                   
+                    const button=document.getElementById('login');
+                    button.addEventListener('click',function(){ //thus is the function that is going to be executed
+                        console.log('button clicked')
+                        const usernameNode = document.getElementById('username');
+                        const passwordNode = document.getElementById('password');
+                        const usernameValue = usernameNode.value;
+                        const passwordValue = passwordNode.value;
+                        console.log(usernameValue, passwordValue);
+                        //console.log(passwordNode.value);
+                        //retrieve username
+                         //retrieve password
+                          //send a request to express server
+                           //validate user
+                            //finally send the user to dashboard
+
+
+                            //validate express server
+                    })
+
+                    </script>
+</body>
+</html>
